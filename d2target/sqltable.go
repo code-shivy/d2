@@ -32,6 +32,7 @@ func (c SQLColumn) Texts(fontSize int) []*MText {
 			IsBold:   false,
 			IsItalic: false,
 			Shape:    "sql_table",
+			Role:     "column_name",
 		},
 		{
 			Text:     c.Type.Label,
@@ -39,6 +40,7 @@ func (c SQLColumn) Texts(fontSize int) []*MText {
 			IsBold:   false,
 			IsItalic: false,
 			Shape:    "sql_table",
+			Role:     "column_name",
 		},
 		{
 			Text:     c.ConstraintAbbr(),

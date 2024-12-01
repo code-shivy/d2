@@ -943,6 +943,7 @@ type MText struct {
 	IsItalic bool   `json:"isItalic"`
 	Language string `json:"language"`
 	Shape    string `json:"shape"`
+	Role     string `json:"role"`
 
 	Dimensions TextDimensions `json:"dimensions,omitempty"`
 }
